@@ -5,7 +5,7 @@ This repository contains implementations of three Markov Chain Monte Carlo (MCMC
 - **Metropolis-Hastings (MH)**
 - **Hamiltonian Monte Carlo (HMC)**
 
-Each algorithm is parallelized to run multiple chains simultaneously, and uses the **Rhat** statistics to check for convergence. 
+Each algorithm is parallelized to run multiple chains simultaneously, and uses the **Rhat** statistic to check for convergence. 
 
 The HMC method uses the leadfrog integration method to simulate Hamiltonian dynamics.
 
